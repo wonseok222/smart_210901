@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* css/src/base_code_layout_03.css */
+
+/* reset.css 
+================================================= */
+html, body {width: 100%; height: 100%; 
+  margin: 0; background-color: #fff;}
+h1, h2, h3, h4, h5, h6, 
+p, pre, address, 
+ul, ol, li, dl, dt, dd{
+  margin: 0; padding:0;
+  font-size: 1rm; 
+  font-family: 'apple SD', 'myriad pro', arial, sans-serif;
+}
+
+ul, ol {list-style: none;}
+
+a {text-decoration: none; color:inherit; }
+table, tr, td, th, thead, tbody, tfoot {
+  border: 1px solid #333; border-spacing: 0; border-collapse: collapse;
+}
+em, address{ font-style: normal;}
+strong, b{font-weight: normal;}
+abbr{text-decoration: none;}
+button {border : 0; background-color: transparent; cursor: pointer;}
+
+/* common.css 
+================================================= */
+.clearfix {height: auto;}
+.clearfix:after,
+.clearfix::after {
+  content:""; display: block; clear:both;
+}  
+.blind { 
+  overflow:hidden; width: 0; height: 0; 
+  margin: 0; padding: 0;
+}
+
+
+/* design 
+================================================= */
+/* work_page common */
+.box_space { margin-bottom: 80px;}
+
+.area_title {
+  width: 1300px; height: 50px;
+  margin:auto; margin-bottom: 30px;
+  background-color: #0ac; }
+
+
+/* layout page design */
+#wrap {
+  width: 700px; height:auto; min-height:500px;
+  margin: auto;
+}
+
+#headBox {
+  width:100%; height:80px; background-color: #5a9;
+  box-sizing: border-box; padding:15px 20px;
+}
+h1 {
+  float:left; width: 100px; height: 50px;
+  background-color: #fff;
+}
+#navigation {
+  margin-top: 20px;
+  float:right; width:auto; height:30px;
+}
+.gnb { width:auto; height:30px; }
+.gnb a {
+  /* float:left; */
+  display:inline-block;
+  width: 100px; height:100%;
+  margin-right:5px;
+  background-color: #fff;
+}
+.gnb a:last-of-type{ margin: 0; }
+
+#viewBox {
+  width:100%; height:250px; background-color: #fc6;
+}
+#subAdBox {
+  width:100%; height:35px; background-color: #337;
+}
+.content_wrap {width: 100%; height:auto;}
+  .con_area {
+    float:left; width:50%; height:300px;
+  }
+
+  #contentBox {
+    box-sizing:border-box; padding:30px;
+    background-color: #faa;}
+    #contentBox div {
+      float:left; width: 140px; height: 120px;
+      margin-right:10px;
+      margin-bottom:10px;
+      background-color: #fff;
+    }
+    #contentBox div:nth-of-type(2n){float:right; margin-right:0;}
+    #contentBox div:nth-last-of-type(-n+2){
+      margin-bottom: 0; background-color: #fd0;
+    }
+
+  #infoBox {
+    box-sizing: border-box; padding:30px;
+    background-color: #a7a;} 
+  #infoBox div { 
+    width: 100%; height: 50px; margin-bottom: 20px; 
+    background-color: #fff;}
+
+
+#footBox {
+  width:100%; height:80px; background-color: #f70;
+}

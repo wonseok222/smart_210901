@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* practice.css */
+
+#wrap {
+  width: 600px; height:auto; 
+  margin:auto; 
+  font-size: 1.3rem; 
+}
+
+.inner {
+  width: 600px; height:600px; 
+  margin:auto; border: 10px solid rgb(44, 221, 103);
+}
+
+.box_1 {
+  float:left; 
+  width: 100%; height:200px;
+}
+
+.a_01 {background-color: rgb(69, 105, 204);
+       color: rgb(255, 255, 255)}
+.a_02 {background-color: rgb(235, 235, 235);}
+.a_03 {background-color: rgb(226, 204, 0);}
+
+.box_2 {
+  float:left; 
+  width: 200px; height:100%;
+}
+
+.insert {
+  width: 600px; height:auto; float:left; 
+  margin:auto; border: 10px solid rgb(44, 221, 103);
+}
+
+.inner_01 {  
+  width: 100%; height:auto;
+}
+
+.is_01 {
+  float:left; 
+  width: 230px; height:200px;
+}
+
+.is_02 { 
+  float:left; 
+  width: 140px; height:200px;
+}
+
+.is_03 {
+  float:left; 
+  width: 230px; height:200px;
+}
+
+.inner_02 {  
+  width: 100%; height:auto;
+}
+
+.is_04 {
+  float:left; 
+  width: 230px; height:200px;
+}
+
+.is_05 { 
+  float:left; 
+  width: 140px; height:200px;
+}
+
+.is_06 {
+  float:left; 
+  width: 230px; height:200px;
+}
+
+.inner_03 {  
+  width: 100%; height:auto;
+}
+
+.is_07 {
+  float:left; 
+  width: 370px; height:200px;
+}
+
+.is_08 { 
+  float:left; 
+  width: 230px; height:200px;
+}
+
+
+.b_01 {background-color: rgb(226, 204, 0);}
+.b_02 {background-color: rgb(69, 105, 204);}
+.b_03 {background-color: rgb(224, 224, 193);}
+.b_04 {background-color: rgb(238, 69, 26);
+       color: rgb(255, 255, 255)}
+.b_05 {background-color: rgb(100, 100, 97);
+       color: rgb(255, 255, 255)}
+.b_06 {background-color: rgb(190, 130, 81);
+       color: rgb(255, 255, 255)}
+.b_07 {background-color: rgb(169, 152, 233);
+       color: rgb(255, 255, 255)}
+.b_08 {background-color: rgb(100, 100, 97);
+       color: rgb(255, 255, 255)}

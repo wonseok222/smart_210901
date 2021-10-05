@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* css/src/main_proto_01.css */
+
+/* reset.css 
+================================================= */
+html, body {width: 100%; height: 100%; 
+  margin: 0; background-color: #fff;}
+h1, h2, h3, h4, h5, h6, 
+p, pre, address, 
+ul, ol, li, dl, dt, dd{
+  margin: 0; padding:0;
+  font-size: 1rm; 
+  font-family: 'apple SD', 'myriad pro', arial, sans-serif;
+}
+
+ul, ol {list-style: none;}
+
+a {text-decoration: none; color:inherit; }
+table, tr, td, th, thead, tbody, tfoot {
+  border: 1px solid #333; border-spacing: 0; border-collapse: collapse;
+}
+em, address{ font-style: normal;}
+strong, b{font-weight: normal;}
+abbr{text-decoration: none;}
+button {border : 0; background-color: transparent; cursor: pointer;}
+
+/* common.css 
+================================================= */
+.clearfix:after,
+.clearfix::after {
+  content:""; display: block; clear:both;
+}
+
+/* 
+================================================= */
+/* work_page common */
+.box_space { margin-bottom: 80px;}
+.blind { 
+  overflow:hidden; width: 0; height: 0; 
+  margin: 0; padding: 0;
+}
+
+
+
+/* design 
+================================================= */
+#wrap { 
+  width: 1440px; height: auto; min-height: 3700px;
+  margin: auto; padding-top: 50px; background-clip: content-box;
+  padding-bottom: 50px;
+}
+
+
+/* headBox
+=================================================  */
+#headBox{
+  padding: 20px 170px 10px 170px; box-sizing: border-box;
+  width: 100%; height: 100px;
+  background-color: #c4c4c4;
+}
+h1 {
+  float: left;
+  width: 120px; height: 70px;
+  background-color: #555;
+}
+  .navigation_area {
+    float: right;
+    width: 510px; height: auto;
+  }
+  #unb{
+    float: right;
+    padding: 3px 5px; box-sizing:border-box;
+    width: 270px; height: 26px;
+    background-color: #555;
+  }
+    #unb li{
+      float: left;
+      width: 50px; height: 20px;
+      margin-right: 20px; 
+      background-color:#c4c4c4;
+    }
+    #unb li:last-child{margin-right: 0;}
+  
+  #gnb{
+    float: right;
+    margin-top: 9px;
+    padding: 5px; box-sizing: border-box;
+    width: 510px; height: 35px;
+    background-color: #555;    
+  }
+  #gnb li{
+    float: left;
+    width: 70px; height: 25px;
+    margin-right: 16px; 
+    background-color:#c4c4c4;
+  }
+  #gnb li:last-child{margin-right: 0;}
+
+
+
+/* viewBox
+=================================================  */
+#viewBox{ 
+  padding: 100px 330px; box-sizing: border-box;
+  width: 100%; height: 600px;
+  background-color: #834C33;
+}
+  .BannerTitle_01 > dl {
+    float: left;
+    padding-top: 76px; background-clip: padding-box;
+    width: 300px; height: 262;
+  }
+  .BannerTitle_01 dt{
+    width: 245px; height: 54px;
+    font-size: 2.6rem; font-weight: bold;
+  }
+  .BannerTitle_01 dd{
+    margin-top: 12px;
+    width: 300px; height: 140px;
+    font-size: 1.2rem;
+  }
+  .rightnow{
+    margin-top: 5px;
+    width: 220px; height: 51px;
+    background-color: #c4c4c4;
+  }
+#viewBox img{
+  float: right;
+  width: 380px; height: 400px;
+  background-color: #c4c4c4;
+}
+/* contentBox_01
+=================================================  */
+#contentBox_01{
+  width: 1440px; height: 700px;
+  background-color: #fff;
+}
+.BannerTitle_02{
+  width: 1440px; height: 179px;
+  padding: 67px 0 0 270px; box-sizing: border-box;
+}
+.con_box_grop_01 {
+  width: 1440px; height: 420px;
+  padding: 0 250px; box-sizing: border-box;
+}
+.con_box_grop_01 >img{
+  float: left;
+  width: 300px; height: 370px;
+  margin-right: 20px;
+}
+.con_box_grop_01 >img:last-child{margin-right: 0;}
+
+.indicator{
+  width: 100%; height: 101px; 
+  padding: 0 650px; box-sizing: border-box;
+}
+.indicator > div{
+  float: left;
+  width: 30px; height: 30px; 
+  background-color: darkgray;
+  margin-right: 20px;
+}
+.indicator > div:last-child{margin-right: 0;}
+/* contentBox_02
+=================================================  */
+#contentBox_02{
+  padding: 50px 250px 0 170px; box-sizing: border-box;
+  width: 1440px; height: 350px;
+  background-color: #FFBD55;
+}
+.sub_banner_01 {
+  float: left;
+  width: 460px; height: 300px;
+  background-color: darkgray;
+}
+.sub_banner_02 {
+  float: right;
+  width: 380px; height: 206px;
+  padding-top: 45px; box-sizing: border-box;
+}
+.sub_banner_02  dt {
+  width: 380px; height: 54px;
+  margin-bottom: 17px;
+  font-size: 2.5rem; font-weight: bold;
+}
+.sub_banner_02  dd {
+  width: 300px; height: 79px;
+  font-size: 1.2rem; 
+}
+.su_ba_rightnow_01 {
+  float: left;
+  width: 160px; height: 45px;
+  background-color: darkgray;
+  margin-right: 30px;
+}
+.su_ba_rightnow_02{
+ float: left;
+  width: 110px; height: 45px;
+  background-color: #1A5D54;
+}
+
+
+/* contentBox_03
+=================================================  */
+#contentBox_03{
+  width: 100%; height: 700px;
+  background-color:#fff;
+}
+
+
+/* contentBox_04
+=================================================  */
+#contentBox_04{
+  width: 100%; height: 760px;
+  background-color: #F7E9D3;
+}
+
+
+/* subAdBox
+=================================================  */
+#subAdBox{
+  width: 100%; height: 100px;
+  background-color: #777;
+}
+
+
+/* footBox
+=================================================  */
+#footBox{
+  width: 100%; height: 450px;
+  background-color: #171717;
+}
+

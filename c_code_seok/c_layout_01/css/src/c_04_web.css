@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* c_04_web.css */
+
+  /**
+  [] logo : 200px x 40px, 로고는 글자로 대체
+  [] navigation 마우스 올리면(hover), hilight 처리
+  [] 공지사항의 첫 번째 클릭(Click), 팝업창(Layer Pop_up)나타남
+  [] 레이어 팝업창 내에 닫기 버튼을 두어서 클릭 사라짐
+  [] html, css 유효성 검사  
+  */
+
+
+/* design */
+#wrap { width: 1000px; height: 650px; margin:auto; background-color: #ccc;}
+
+
+/* headBox
+=============================== */
+#headBox{
+  float: left;
+  width: 250px; height: 650px;
+  padding: 20px 25px; box-sizing: border-box;
+  background-color: #ccc;
+}
+  h1{
+    width: 200px; height: 40px;
+    background-color: #aaa;
+    margin-bottom: 20px;
+  }
+  h1 a{
+    display: block; width: 100%; height: 100%;
+    text-align: center; line-height: 40px;
+    font-size: 1.2rem;
+  }
+  .navigation{width: 100%; height: auto;}
+  .navigation ul{width: 100%; height: auto;}
+  .navigation li{
+    width: 100%; height: 40px; 
+    text-align: center; line-height: 40px;
+    padding: 1px; box-sizing: border-box;
+    background-color:#5BF3B6;}
+  .navigation dl{width: 100%; height: 100%;}
+  .navigation dt{
+    width: 100%; height: 100%; 
+    background-color: #44A23C;
+  }
+
+  .navigation dt a { display: block; width: 100%; height: 100%; }
+  .navigation dd{}
+  .navigation dd a{}
+/* width:auto 기본은 100%, height:auto는 자식의 크기를 따르겠다. */
+/* viewBox
+=============================== */
+#viewBox{
+  float: left;
+  width: 750px; height: 350px;
+  background-color: #eee;
+}
+
+
+/* conBox
+=============================== */
+#conBox{
+  float: left;
+  width: 750px; height: 200px;
+  background-color: #aaa;
+}
+  .notice_gallery{
+    float: left;
+    width: 33.333333%; height: 100%;
+    background-color: #1C8C1B;
+  }
+  .banner{
+    float: left;
+    width: 33.333334%; height: 100%;
+    background-color: #B4BE29;
+  }
+  .rightnow{
+    float: left;
+    width: 33.333333%; height: 100%;
+    background-color: #06D11B;
+  }
+
+/* footBox
+=============================== */
+#footBox{
+  float: left;
+  width: 750px; height: 100px;
+  background-color: #777;
+}
+  .company{
+    float: left;
+    width: 150px; height: 100px;
+    background-color: #A34B76;
+  }
+  .down_menu{
+    float: right;
+    width: 600px; height: 50px;
+    background-color: #A62D0D;
+  }
+  .copyright{
+    float: right;
+    width: 600px; height: 50px;
+    background-color: #82BDF9;
+  }
+
+
+
